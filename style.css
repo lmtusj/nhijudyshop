@@ -38,6 +38,10 @@ img{
     height: 25%;
 }
 
+img:hover{
+    transform: scale(10);
+}
+
 table{
     border: 1px solid;
     width: 100%;
