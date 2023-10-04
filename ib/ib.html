@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giao diện bảng sản phẩm và thông tin khách hàng</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="../logo.jpg" />
+</head>
+<body>
+    <h1>Bảng sản phẩm và thông tin khách hàng</h1>
+
+    <!-- Thêm dropdown menu và nút áp dụng bộ lọc -->
+    <label for="filterCategory">Chọn phân loại:</label>
+    <select id="filterCategory">
+        <option value="all">Tất cả</option>
+        <option value="Áo">Áo</option>
+        <option value="Quần">Quần</option>
+        <option value="SetDam">Set và Đầm</option>       
+        <option value="PKGD">Phụ kiện và Giày dép</option>
+    </select>
+    <button onclick="applyCategoryFilter()">Áp dụng bộ lọc</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Thứ tự</th>
+                <th>Phân loại</th>
+                <th>Hình ảnh sản phẩm</th>
+                <th>Tên sản phẩm</th>
+                <th>Thông tin khách hàng</th>
+                <th>Ẩn</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Dữ liệu sản phẩm và thông tin khách hàng sẽ được thêm bằng JavaScript -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
