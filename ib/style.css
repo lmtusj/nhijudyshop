@@ -59,3 +59,55 @@ button.toggle-visibility {
 button.toggle-visibility:hover {
     background-color: #2980b9;
 }
+
+#dataForm {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Thêm CSS để căn giữa nút "Thêm dữ liệu" */
+.center-button {
+    text-align: center;
+}
+
+.center-button button {
+    margin-top: 10px;
+}
+
+#clearDataButton {
+    background-color: #e74c3c; /* Màu đỏ */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px; /* Khoảng cách với nút "Thêm dữ liệu" */
+    cursor: pointer;
+}
+
+#clearDataButton:hover {
+    background-color: #c0392b; /* Màu đỏ khi hover */
+}
