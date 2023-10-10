@@ -8,6 +8,12 @@ h1 {
     text-align: center;
 }
 
+#toggleFormButton{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: #FFF;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

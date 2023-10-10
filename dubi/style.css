@@ -1,5 +1,11 @@
-/* CSS styles here */
+
 body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: #FFF;
+}
+
+#toggleFormButton{
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     background: #FFF;

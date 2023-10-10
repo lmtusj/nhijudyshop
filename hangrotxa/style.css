@@ -3,8 +3,14 @@ td:nth-child(7) input[type="number"] {
     font-size: 24px; /* Điều chỉnh kích thước chữ số trong cột "Số lượng" */
 }
 
-/* CSS cho cả bảng sản phẩm */
+
 body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: #FFF;
+}
+
+#toggleFormButton{
     font-family: 'Times New Roman', Times, serif;
     margin: 20px;
     background: #FFF;
